@@ -1,0 +1,146 @@
+:root{
+	--navPadding: 60px;
+	
+	
+}
+.genContainer{
+	width: 1300px;
+	padding: 20px;
+	background-color: #f0f0f0;
+	align-items: center;
+	margin-right: auto;
+    margin-left: auto;
+	margin-top: 25px;
+	
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+	display:flex;
+	align-items:center;
+	justify-content: space-between;
+	background-color: #333333;
+}
+
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.navbar ul li {
+  float: left;
+}
+
+.navbar ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  background-color: #111111;
+}
+
+.navbarRight, .navbarLeft{
+	display: flex;	
+}
+
+.navbarRight{
+	padding-right: var(--navPadding);
+}
+
+.introColumns{
+	margin: 0px 5px 0px 5px;
+	display:flex;
+	height: 600px;
+}
+.introcolumn-1{
+	width:50%;
+	font-size: 30px;
+}
+.introcolumn-2{
+	width:50%;
+	font-size: 30px;
+}
+
+.pageCards{
+	display: flex;
+}
+.pageCardContainer{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	max-width: 300px;
+	margin: auto;
+	text-align: center;
+	background-color: bisque;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto 400px;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container div {
+	background-color: #f1f1f1;
+	color: #000;
+	padding: 10px;
+	margin-bottom: 6px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.wrapper{
+	width: 900px;
+	margin: auto;	
+}
+
+.projectWrapper{
+	display: flex;
+}
+.right{
+	width: 80%;
+}
+.left{
+	width: 20%;
+}
+
+.projectContainer{
+	border: #5985FF solid;
+	margin: 10px;
+}
+
+.projectContainer h2{
+	text-align: center;
+	color:#5985FF;
+	border-bottom: 2px solid #5985FF;
+	margin-bottom: 19px;
+}
+
+.projectContainer h4 p{
+	margin: 20px;
+}
+
+.projectLink{
+	display: inline-block;
+ 	color: white;
+ 	text-align: center;
+ 	padding: 14px 16px;
+ 	text-decoration: none;
+	background-color: #5985FF;
+	margin: 10px;
+}
+
+.projectLink:hover{
+	opacity: 0.5;
+}
