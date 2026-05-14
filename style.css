@@ -22,7 +22,7 @@
 	background-color: #FFFFFF80 ;
 }
 .hero-image{
- 	background-image: url("Banner.PNG");
+ 	background-image: url("../Banner.PNG");
 	width: 100%;
 	height: 600px;
  	background-position: center;
@@ -62,7 +62,7 @@ body {
 font-family: ms ui gothic;
   margin: 0;
   padding: 0;
-background-image: url("polkadots2.PNG");
+background-image: url("../polkadots2.PNG");
 }
 
 .navbar{
